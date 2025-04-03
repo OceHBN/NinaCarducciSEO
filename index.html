@@ -7,6 +7,7 @@
 	<title>Nina Carducci</title>
 	<meta name="description"
 		content="Découvrez mon portfolio de photographie. Captures d'émotions, moments uniques et créations artistiques par Nina Carducci.">
+	<meta name="robots" content="index, follow">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +21,17 @@
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.min.js" defer></script>
 	<script src="./assets/scripts.min.js" defer></script>
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Person",
+	  "name": "Nina Carducci",
+	  "url": "https://ninacarducci.github.io/",
+	  "sameAs": [
+	    "https://www.instagram.com/ninacarducci.photo/"
+	  ]
+	}
+	</script>
 </head>
 
 <body>
@@ -32,7 +44,8 @@
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-						target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
+						target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"
+							rel="noopener noreferrer me"></a></li>
 			</ul>
 		</div>
 	</div>
@@ -207,5 +220,37 @@
 		</div>
 	</div>
 </body>
+
+<footer>
+	<div class="footer-container">
+		<address>
+			<p><strong>Adresse :</strong> 68 avenue Alsace-Lorraine, 33200 Bordeaux, France</p>
+			<p><strong>Téléphone :</strong>
+				<a href="tel:+33556677889">05 56 67 78 89</a>
+			</p>
+			<p><strong>Horaires :</strong>
+				<time datetime="10:00-19:00">Lundi au vendredi de 10h à 19h</time>
+			</p>
+		</address>
+	</div>
+
+	<!-- Schema.org pour un meilleur SEO -->
+	<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Nina Carducci",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "68 avenue Alsace-Lorraine",
+      "addressLocality": "Bordeaux",
+      "postalCode": "33200",
+      "addressCountry": "FR"
+    },
+    "telephone": "+33556677889",
+    "openingHours": "Mo-Fr 10:00-19:00"
+  }
+  </script>
+</footer>
 
 </html>

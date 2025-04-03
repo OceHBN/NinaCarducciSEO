@@ -359,6 +359,39 @@ input[type="submit"] {
 	}
 }
 
+footer {
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+	border-top: 2px solid #ddd;
+	font-family: Arial, sans-serif;
+}
+
+.footer-container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+address {
+	font-style: normal;
+	color: #333;
+	line-height: 1.6;
+}
+
+address p {
+	margin: 10px 0;
+}
+
+address a {
+	color: #0073e6;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+address a:hover {
+	text-decoration: underline;
+}
+
 @media all and (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
